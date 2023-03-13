@@ -1,0 +1,28 @@
+name: h2amp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - jupyter
+  - pandas
+  - xarray
+  - scikit-learn
+  - scipy=1.5.3
+  - glidertools
+  - cmocean
+  - pip=23.0
+  - jupyterlab
+  - ipympl 
+  - pip:
+      - cftime==1.4.1
+      - gsw==3.6.16
+      - markdown==3.3.4
+      - markdown2==2.4.2
+      - markdown2pdf==0.1.4
+      - mat4py==0.5.0
+      - scp==0.14.4
+      - seaborn==0.12.2
+      - seawater==3.3.4
+prefix: C:\Users\sa01ld\Miniconda3
