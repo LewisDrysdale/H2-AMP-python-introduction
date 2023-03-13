@@ -2,16 +2,17 @@
 
 ### Installer 
 
-=========
-Miniconda
-=========
+#### Miniconda
 
-Miniconda is a free minimal installer for conda. It is a small, bootstrap
+From the website:
+
+***Miniconda is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a
-few others. Use the ``conda install`` command to install 720+ additional conda
-packages from the Anaconda repository.
+few others. Use the `conda install` command to install 720+ additional conda
+packages from the Anaconda repository.***
 
+Minconda can be downloaded [here](https://docs.conda.io/en/latest/miniconda.html)
 
 ### Set up the environment using Conda
 
@@ -28,4 +29,6 @@ I find conda and the anaconda distribution easiest and most transparent for mana
 
 The second line of code activates the new environment and the third line opens a jupyter notebook.
 
-``conda create -n h2amp python=3.6 scipy jupyter numpy matplotlib pandas xarray scikit-learn conda activate h2amp jupyter notebook``
+`conda create -n h2amp python=3.6 scipy jupyter numpy matplotlib pandas xarray scikit-learn`
+
+`conda activate h2amp jupyter notebook`
