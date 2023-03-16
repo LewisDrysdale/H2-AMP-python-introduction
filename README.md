@@ -30,11 +30,11 @@ Minvconda comes with Anaconda Prompt. You can find this by typing `Anaconda Prom
 
 Open the Anaconda prompt window and run the following code.
 
-	`conda create -n h2amp python=3.9 scipy jupyter jupyterlab numpy matplotlib pandas xarray scikit-learn`
+	conda create -n h2amp python=3.9 scipy jupyter jupyterlab numpy matplotlib pandas xarray scikit-learn
 
 The second line of code activates the new environment.
 
-	`conda activate h2amp`
+	conda activate h2amp
 
 ##### Using a .yml file
 
@@ -42,15 +42,15 @@ You can list the modules you require and their dependencies in a text file calle
 It also contains the name of your environment. 
 This file can be used to create your virtual environment by entering the folowing code.
 
-	`conda env create -f environment.yml`
+	conda env create -f environment.yml
 	
 You can verfiy your environment has been created by typing
 
-	`conda env list`
+	conda env list
 	
 Now activate your new environment
 
-	`conda activate h2amp`
+	conda activate h2amp
 	
 ### Start programming	
 
@@ -61,4 +61,4 @@ There are many others available such as [Spyder](https://www.spyder-ide.org/), [
 
 To open Jupyter, we can just write the following in the Anaconda Prompt
 
-	'jupyter lab`
+	jupyter lab
