@@ -9,10 +9,13 @@ dependencies:
   - pandas
   - xarray
   - scikit-learn
-  - scipy=1.5.3
+  - packaging
+  - scipy
   - cmocean
-  - pip=23.0
   - jupyterlab
   - ipympl 
-  - pip
+  - pip=23.0
+  - pip:
+    - h5netcdf
+    - netCDF4
 prefix: C:\Users\sa01ld\Miniconda3
