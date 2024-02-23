@@ -3,19 +3,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - numpy
-  - jupyter
-  - pandas
-  - xarray
-  - scikit-learn
-  - packaging
-  - scipy
-  - cmocean
-  - jupyterlab
-  - ipympl 
-  - pip=23.0
-  - pip:
-    - h5netcdf
-    - netCDF4
+ - python=3.9
+ - numpy
+ - jupyter
+ - pandas
+ - xarray
+ - scikit-learn
+ - packaging
+ - scipy
+ - cmocean
+ - jupyterlab
+ - ipympl 
+ - Pyarrow 
+ - pip
+ - pip:
+  - h5netcdf
+  - netCDF4
 prefix: C:\Users\sa01ld\Miniconda3
