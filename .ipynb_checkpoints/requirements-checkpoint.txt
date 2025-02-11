@@ -1,0 +1,8 @@
+numpy==1.26
+matplotlib==3.10
+pandas==2.2.2
+packaging
+xarray
+scikit-learn==1.6.1
+scipy==1.15.1
+cmocean
